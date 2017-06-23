@@ -337,6 +337,10 @@ public final class WheelView extends View {
         }
     }
 
+    public int getSelectedIndex() {
+        return selectedIndex;
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent motionevent) {
         switch (motionevent.getAction()) {
